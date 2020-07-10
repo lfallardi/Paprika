@@ -1,0 +1,447 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: auto;
+    width: 980px;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcaNav {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 125px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px 5px 5px 5px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px 25px 200px;
+    color: black !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+#site div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#site img {
+    height: 100%;
+    width: 25px;
+}
+
+#site p {
+    font-size: 12px;
+}
+
+.certificado {
+    width: 100% !important;
+    height: 20px !important;
+}
+
+footer {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+footer div {
+    width: 50%;
+    text-align: right;
+}
+
+.marcaFooter {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 80px;
+    margin: auto;
+}
+
+#redesSociales {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 36px;
+}
+
+/* INDEX */
+
+#Intro {
+    width: 600px;
+    height: 250px;
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Intro h1 {
+    font-size: 36px;
+}
+
+#Intro p {
+    font-size: 14px;
+    padding: 0px 80px;
+}
+
+#Nuevo {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#LoUltimo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.loUltimo {
+    height: 300px;
+    width: 300px;
+}
+
+/* CONTACTO */
+
+.bodyContacto{
+    background-image: url('../img/fondofucsia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -80px;
+
+}
+
+.bodyContacto #contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContacto #contacto h2 {
+    font-family: 'Days One', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.bodyContacto #contacto p {
+    font-family: 'Days One', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+    padding: 0px 250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bodyContacto form {
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 100px;
+}
+
+.bodyContacto form h3 {
+    font-weight: 800;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+}
+
+.bodyContacto form div input{
+    width: 100%;
+    margin: 10px 0px;
+    border: none;
+    padding: 10px 5px;
+}
+
+.bodyContacto form label {
+    color: white;
+    font-size: 20px;
+}
+
+.bodyContacto textarea{
+    resize: none;
+    width: 780px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.bodyContacto form div button {
+    border: none;
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+/* TIENDA ONLINE */
+
+.bodyTienda{
+    background-image: url('../img/fondoazul.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -80px;
+}
+
+.bodyTienda #Titulo h1 {
+    font-family: 'Days One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bodyTienda #tienda h1 {
+    margin: 50px 0px;
+}
+
+.bodyTienda #tiendaDetalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.bodyTienda #tiendaDetalle div img{
+    height: 300px;
+    width: 225px;
+}
+
+.bodyTienda #tiendaDetalle div img{
+    padding-top: 30px;
+    height: 400px;
+    width: 320px;
+}
+
+.bodyTienda #tiendaDetalle div h3{
+    color: mediumblue;
+    font-weight: 900;
+}
+
+.bodyTienda #tiendaDetalle div span{
+    color: white;
+    padding: 10px 50px;
+    background-color: red;
+}
+
+.bodyTienda #tiendaDetalle div button{
+    display: block;
+    margin: 10px 0px;
+    color: white;
+    padding: 10px 50px;
+    background-color: red;
+    border: none;
+}
+
+.bodyTienda #mediosDePago {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bodyTienda #mediosDePago div img{
+    height: 100px;
+    width: 150px;
+}
+
+.bodyTienda .destacadoVasos {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.bodyTienda .galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bodyTienda .galeria div img, .articulo {
+    height: 300px;
+    width: 225px;
+}
+
+.bodyTienda .precio {
+    color: red !important;
+}
+
+
+/* UNIVERSO KABUM */
+
+.bodyUniverso{
+    background-image: url('../img/fondokabum.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -250px -80px;
+}
+
+.bodyUniverso #Titulo h1 {
+    font-family: 'Days One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bodyUniverso #Titulo p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 300px;
+    margin-bottom: 350px;
+
+}
+
+.bodyUniverso #Titulo p span {
+    text-transform: uppercase;
+}
+
+.bodyUniverso #dibujitos h2, #series h2 {
+    font-family: 'Days One', sans-serif;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bodyUniverso #dibujitos h3, #series h3 {
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+.bodyUniverso .destacadoVasos {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.bodyUniverso .galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bodyUniverso .galeria div img {
+    height: 300px;
+    width: 225px;
+}
+
+.bodyUniverso .precio {
+    color: red !important;
+}
+
+
+/* LANDING 1 */
+
+.bodyLanding1{
+    background-image: url('../img/especialmayo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -100px;
+}
+
+.bodyLanding1 section {
+    display: flex;
+    font-family: 'Days One', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 800px;
+    color: red;
+}
+
+.bodyLanding1 section h1 {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.bodyLanding1 section a {
+    background-color: red;
+    border-radius: 10px;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+/* LANDING 2 */
+
+.bodyLanding2{
+    background-image: url('../img/fondobombarosa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+.bodyLanding2 section {
+    display: flex;
+    font-family: 'Days One', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 700px;
+    text-transform: uppercase;
+}
+
+.bodyLanding2 section h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.bodyLanding2 section textarea {
+    width: 600px;
+    height: 200px;
+    background-color: yellow;
+    border: none;
+    resize: none;
+}
+
+.bodyLanding2 section h2 {
+    color: red;
+}
